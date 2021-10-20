@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Style+Script&display=swap" rel="stylesheet">
+
+	<title>Personagens principais</title>
+</head>
+<body>
+<header>
+	<div class="menu">
+		<img src="logo.png" class="logo">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="personagens.html">Personagens</a></li>
+		<li><a href="contato.html">Inscreva-se</a></li>
+	</ul>
+
+	</div>
+	</header>
+
+	<main>
+		<h2>Inscreva-se para receber novidades e noticias</h2>
+		<form>
+			<label for="nomesobrenome">Nome e Sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao">
+
+			<label for="telefone">Telefone</label>
+			<input type="text" id="telefone" class="input-padrao" placeholder="(XX) X XXXX-XXXX">
+
+
+			<label for="email">E-mail</label>
+			<input type="text" id="email" class="input-padrao"placeholder="seunome@seudominio.com">
+
+			<label for="mensagem">Descreva sua experiência </label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao"></textarea>
+
+			<div>
+
+			<p>Qual é seu personagem favorito</p>
+
+			<label for="radio-geralt"><input type="radio" name="contato" value="geralt" id="radio-geralt"> Geralt</label>
+			
+
+			<label for="radio-yennefer"><input type="radio" name="contato"value="yennefer" id="radio-yennefer"> Yennefer</label>
+			
+
+			<label for="radio-ciri"><input type="radio" name="contato" value="ciri" id="radio-ciri" checked> Ciri</label>
+
+
+			
+
+			</div>
+
+			<div class="opcoes">
+
+				<p>Qual horario prefere ser atendido?</p>
+				
+			<select>
+				<option>Manhã</option>
+				<option>Tarde</option>
+				<option>Noite</option>
+			</select>
+			</div>
+
+			<label><input type="checkbox" class="checkbox"checked> Gostaria de receber novidades por email?</label>
+
+			
+
+
+
+
+
+
+			<input type="submit" value="Enviar formulário" class="botao">
+		</form>
+
+		<table>
+			<thead>
+			<tr>
+				<th>Dia</th>
+				<th>Horario</th>
+			</tr>
+			</thead>
+			<tbody>
+			<tr>
+				<td>Sexta</td>
+				<td>19 as 22 hrs</td>
+			</tr>
+			<tr>
+				<td>Sábado</td>
+				<td>19 as 22 hrs</td>
+			</tr>
+			<tr>
+				<td>Domingo</td>
+				<td>10 as 18 hrs</td>
+			</tr>
+			</tbody>
+
+		</table>
+
+
+
+	</main>
+
+
+
+	<footer>
+	<p>&copy Copyright The Witcher 2021</p>
+	<img src="logobranco.png">
+</footer>
+
+</body>
+</html>

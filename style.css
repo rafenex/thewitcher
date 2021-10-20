@@ -1,0 +1,305 @@
+
+	header{
+	background: #CCCCCC;
+	border-bottom: 4px solid black;
+	font-family: 'Lato', sans-serif;
+
+}
+
+
+.menu{
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 10px 10px;
+
+	position: relative;
+}
+
+.menu ul{
+
+
+	display: inline-block;
+	position: absolute;
+	margin-top: 95px;
+	margin-left: 200px;
+	width: 70%px;
+	padding: 2px 2px;
+	text-align: right;
+
+
+
+}
+
+.menu li{
+	
+	display: inline-block;
+	margin-left: 35px;
+
+}
+.menu a {
+		font-size: 1,5em;
+		font-weight: bold;
+		font-size: 22px;
+		text-decoration: none;
+		color: black;
+		text-transform: uppercase;
+
+
+
+}
+main{
+	width: 980px;
+	margin: 0 auto;
+	padding: 20px;
+	
+
+
+}
+.menu a:hover{ 
+	color:orange;
+	 }
+
+.personagens{
+
+	padding: 10px 0;
+
+}
+
+.personagens-principais{
+	margin-top: 15px;
+	text-align: center;
+}
+
+.personagens h2{
+		font-size: 1,5em;
+		font-weight: bold;
+		font-size: 24px;
+}
+
+.personagens ul{
+	text-align: center;
+	width: 940px;
+	padding: 20px 0;
+	display: inline-block;
+
+
+}
+
+.personagens li{
+	border: 2px solid black;
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	padding: 10px 10px;
+	margin-top: 15px;
+	background-color: lightgrey;
+	border-radius: 15px;
+}
+
+.img-personagens{
+	width: 250px;
+	height: 250px;
+}
+
+.personagens p{
+	font-size: 18px;
+}
+
+.personagens li:hover p{
+	color: whitesmoke;
+}
+
+
+.personagens li:hover{
+	background: black;
+}
+
+.personagens li:hover h2{
+	color: whitesmoke;
+}
+
+form{
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+
+
+}
+
+form label, form p{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+
+}
+
+.input-padrao{
+	display: inline-bl;
+	width: 50%;
+	padding: 10px 25px;
+	margin: 0 0 10px
+}
+
+
+
+footer{
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	background: url("bg.jpg");
+
+}
+
+.checkbox{
+	margin: 20px 6px;
+
+}
+
+.div-sobre{
+	margin: 20px;
+	width: 940px
+
+}
+
+.imagem-sobre{
+	width: 250px;
+	float: left;
+	margin-right: 15px;
+}
+
+
+.div-sobre p{
+	font-size: 18px;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+
+
+
+
+}
+
+
+h2{
+	font-size: 30px;
+	font-family: 'Style Script', cursive;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 6px;
+
+
+}
+
+.nosso-estabelecimento{
+
+	text-align: center;
+	padding: 10px 0;
+	width: 940px;
+
+
+}
+
+.nosso-estabelecimento p{
+	font-size: 22px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.mapa{
+	width: 100%;
+	height: 300px;
+
+}
+
+.lista-livros{
+	padding: 20px 0;
+
+	margin: 15px;
+	vertical-align: top;
+	text-align: center;
+	width: 940px
+
+
+}
+
+.lista-livros img{
+
+	width: 60%;
+}
+
+.lista-livros img:hover{
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.lista-livros ul{
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+.lista-livros li{
+	text-align: left;
+	margin: 8px ;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.lista-livros li:before {
+    content: "★ ";
+
+}
+
+.video{
+
+	text-align: center;
+	width: 940px;
+	margin-bottom: 20px;
+
+}
+
+body{
+	background: linear-gradient(white,grey,white);
+}
+
+.banner {
+	width: 100%;
+}
+
+
+table{
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid black;
+	padding: 8px 15px;
+}
+
+.botao{
+
+	background: orange;
+	color: white;
+	width: 50%;
+	padding: 8px 10px;
+	font-size: 22px;
+	border: none;
+	font-weight: bold;
+	border-radius: 10px;
+	transition: 1s background;
+	
+
+
+
+}
+
+.botao:hover{
+background: darkorange;
+
+
+}
